@@ -1,11 +1,11 @@
 // // 1. Write a JavaScript function that reverse a number. 
 
-// function reverse_a_number(num)
-// {
-// 	num = num+ "";
-// 	return num.split("").reverse().join("");
-// }
-// console.log(Number(reverse_a_number(32243)));
+function reverse_a_number(num)
+{
+	num = num+ "";
+	return num.split("").reverse().join("");
+}
+console.log(Number(reverse_a_number(32243)));
 
 // // Example x = 32243;
 // // Expected Output: 34223 
@@ -13,18 +13,18 @@
 // // 2. Write a JavaScript function that checks whether a passed string is palindrome or not? 
 // // A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g.,
 // // madam or nurses run.
-// palindrome("madam") === true
-// palindrome("run") === false
+palindrome("madam") === true
+palindrome("run") === false
 
-// function palindrome(str) {
-//     const reversed = str
-//         .split('')
-//         .reverse()
-//         .join('');
+function palindrome(str) {
+    const reversed = str
+        .split('')
+        .reverse()
+        .join('');
 
-//     return str === reversed;
-// }
-// console.log(palindrome('madam'))
+    return str === reversed;
+}
+console.log(palindrome('madam'))
 
 // // 3. Write a JavaScript function that generates all combinations of a string. 
 // // Example string: 'dog' 
